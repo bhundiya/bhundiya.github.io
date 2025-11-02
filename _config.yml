@@ -2,7 +2,8 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Space Structures and Robotics Construction Laboratory (SPARC) # the website title (if blank, full name will be used instead)
+title: Space Structures and Robotics Construction Laboratory # the website title (if blank, full name will be used instead)
+navbar_title: SPARC Lab
 first_name: Harsh
 middle_name: G.
 last_name: Bhundiya
@@ -12,10 +13,10 @@ description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+# Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 
 url: https://bhundiya.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
@@ -191,6 +192,7 @@ exclude:
   - README.md
   - readme_preview/
   - vendor
+  - cv.md
 keep_files:
   - CNAME
   - .nojekyll
