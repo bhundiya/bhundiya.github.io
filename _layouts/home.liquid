@@ -14,13 +14,6 @@ layout: default
     <p class="desc">{{ page.subtitle }}</p>
   </header>
 
-  {% if page._styles %}
-    <!-- Page-specific styles -->
-    <style type="text/css">
-      {{ page._styles }}
-    </style>
-  {% endif %}
-
   <article>
     {% if page.profile %}
       <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
@@ -36,11 +29,11 @@ layout: default
       30vw, 95vw"{% endcapture %}
           {%
             include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
-            cache_bust=true max-width=page.profile.max_width
+            cache_bust=true
           %}
         {% endif %}
         {% if page.profile.more_info %}
-          <div class="more-info">{{ page.profile.more_info | markdownify }}</div>
+          <div class="more-info">{{ page.profile.more_info }}</div>
         {% endif %}
       </div>
     {% endif %}
