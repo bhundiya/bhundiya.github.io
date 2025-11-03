@@ -16,5 +16,5 @@ profiles:
       <a href="mailto:bhundiya@umd.edu">bhundiya@umd.edu</a> · <a href="/assets/BhundiyaCV_Sep2025.pdf" target="_blank" rel="noopener">CV</a>
 
   - align: left
-    content: TBD
+    content: team/TBD.md
 ---
