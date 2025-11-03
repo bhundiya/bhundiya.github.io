@@ -9,12 +9,19 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-research",
+  },{id: "nav-team",
+          title: "Team",
+          description: "members of the lab or group",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/team/";
+          },
+        },{id: "nav-research",
           title: "Research",
           description: "The new space era is defined by rapidly decreasing launch costs from heavy-lift rockets such as Starship and New Glenn, and an ever-growing demand for spacecraft with increased capabilities. Nonetheless, modern spacecraft are limited by the constraints of launch: they must fit within the volume of the rocket fairing, survive accelerations up to 50 g, and deploy with perfect precision in orbit. Achieving ambitious future missions – such as large space telescopes for exoplanet detection and the construction of planetary infrastructure – requires breakthroughs in how we design, build, and launch structures to space.In-space assembly and manufacturing (ISAM) offer a promising path forward by enabling the robotic construction of structures directly in space. ISAM can produce systems that are larger and better optimized for loads in the space environment, transforming science missions, enabling next-generation space stations, and paving the way for permanent infrastructure on the Moon and Mars. ISAM is on the verge of space demonstrations with recent advances in robotic construction, but critical challenges remain before it is routinely integrated into missions:•	Candidate ISAM processes have high size, weight, and power requirements, limiting their integration with small spacecraft. •	Precise structures are difficult to construct with open-loop ISAM processes. •	The changes in mass properties over long timescales of construction pose challenges to spacecraft attitude control.The SPARC Lab tackles these challenges through interdisciplinary research in mechanics, dynamics, and robotics. We aim to develop the fundamental technologies for efficient and precise ISAM, demonstrate them through ground and space-based experiments, and enable the construction of large-scale infrastructure in orbit and on planetary surfaces.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/projects/";
+            window.location.href = "/research/";
           },
         },{id: "nav-publications",
           title: "Publications",
@@ -30,12 +37,12 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "nav-team",
-          title: "Team",
-          description: "members of the lab or group",
+        },{id: "nav-join-sparc-lab",
+          title: "Join SPARC Lab!",
+          description: "The SPARC lab welcomes motivated individuals interested in space structures and robotic construction.  Given the interdisciplinary nature of our research, we are recruiting Masters students, Ph.D. students, and postdoctoral scholars with backgrounds in mechanics, dynamics and control, robotics, and related fields. Please note that the SPARC lab will officially launch in Fall 2026, but we welcome early inquiries from motivated candidates interested in joining the team.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/people/";
+            window.location.href = "/join/";
           },
         },{id: "post-a-post-with-plotly-js",
         
@@ -458,35 +465,28 @@ ninja.data = [{
         title: 'email',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%79%6F%75@%65%78%61%6D%70%6C%65.%63%6F%6D", "_blank");
+          window.open("mailto:%62%68%75%6E%64%69%79%61@%75%6D%64.%65%64%75", "_blank");
         },
       },{
-        id: 'social-inspire',
-        title: 'Inspire HEP',
+        id: 'social-linkedin',
+        title: 'LinkedIn',
         section: 'Socials',
         handler: () => {
-          window.open("https://inspirehep.net/authors/1010907", "_blank");
+          window.open("https://www.linkedin.com/in/harsh-bhundiya-550239b8", "_blank");
         },
       },{
-        id: 'social-rss',
-        title: 'RSS Feed',
+        id: 'social-orcid',
+        title: 'ORCID',
         section: 'Socials',
         handler: () => {
-          window.open("/feed.xml", "_blank");
+          window.open("https://orcid.org/0000-0001-6504-570X", "_blank");
         },
       },{
         id: 'social-scholar',
         title: 'Google Scholar',
         section: 'Socials',
         handler: () => {
-          window.open("https://scholar.google.com/citations?user=qc6CJjYAAAAJ", "_blank");
-        },
-      },{
-        id: 'social-custom_social',
-        title: 'Custom_social',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://www.alberteinstein.com/", "_blank");
+          window.open("https://scholar.google.com/citations?user=1wCSzO0AAAAJ", "_blank");
         },
       },{
       id: 'light-theme',
