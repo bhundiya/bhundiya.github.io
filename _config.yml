@@ -2,6 +2,11 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
+# TO DO: 
+# - add lab logo as the icon?
+# - make fonts larger and blacker for better readability
+# - upload research focus areas
+
 title: Space Structures and Robotics Construction Laboratory # the website title (if blank, full name will be used instead)
 navbar_title: SPARC Lab
 first_name: Harsh
@@ -15,7 +20,7 @@ footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
 keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+# icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 # Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 
 url: https://bhundiya.github.io # the base hostname & protocol for your site
@@ -48,7 +53,7 @@ repo_trophies:
 
 navbar_fixed: true
 footer_fixed: true
-search_enabled: true
+search_enabled: false # searches through site
 socials_in_search: true
 posts_in_search: true
 bib_search: true

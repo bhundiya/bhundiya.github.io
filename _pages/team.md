@@ -13,7 +13,8 @@ profiles:
     content: team/harsh.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <a href="mailto:bhundiya@umd.edu">bhundiya@umd.edu</a> · <a href="/assets/BhundiyaCV_Sep2025.pdf" target="_blank" rel="noopener">CV</a>
+      **Principal Investigator** <br>
+      <a href="mailto:bhundiya@umd.edu">bhundiya@umd.edu</a> · <a href="/assets/pdf/BhundiyaCV_Sep2025.pdf" target="_blank" rel="noopener">CV</a>
 
   - align: left
     content: team/TBD.md
