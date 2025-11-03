@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Research
-permalink: /projects/
+permalink: /research/
 description: >
   The new space era is defined by rapidly decreasing launch costs from heavy-lift rockets such as Starship and New Glenn, and an ever-growing demand for spacecraft with increased capabilities. Nonetheless, modern spacecraft are limited by the constraints of launch: they must fit within the volume of the rocket fairing, survive accelerations up to 50 g, and deploy with perfect precision in orbit. Achieving ambitious future missions – such as large space telescopes for exoplanet detection and the construction of planetary infrastructure – requires breakthroughs in how we design, build, and launch structures to space.
 
@@ -13,7 +13,7 @@ description: >
 
   The SPARC Lab tackles these challenges through interdisciplinary research in mechanics, dynamics, and robotics. We aim to develop the fundamental technologies for efficient and precise ISAM, demonstrate them through ground and space-based experiments, and enable the construction of large-scale infrastructure in orbit and on planetary surfaces.
 nav: true
-nav_order: 2
+nav_order: 3
 display_categories: [work, fun]
 horizontal: false
 ---
