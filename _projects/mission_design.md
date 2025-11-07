@@ -1,0 +1,27 @@
+---
+layout: page
+title: Efficient Mission Design
+img: assets/img/publication_preview/FTDPreview.png
+importance: 1
+category: work
+related_publications: true
+---
+
+For ISAM technologies to be compatible with the constraints of modern spacecraft, a holistic design approach is needed. The SPARC lab focuses on the co-design of the construction process and the spacecraft, and develops frameworks for efficient ISAM missions.
+
+For instance, our work has shown:
+ - In-space construction processes should use composites, polymers, and metals as feedstock materials to optimize thermal stability, resistance to disturbance loads, and minimal-mass buckling strength.
+ - Among candidate manufacturing processes, deformation processes have the lowest specific energy consumption (<2 MJ/kg) and are thus well-suited for construction in space. {% cite bhundiya2022engineering %}
+ - Design tradeoffs govern the fabrication time of large structures, e.g., five ISAM spacecraft can construct a 200-m diameter gridshell in 5 days with extrusion of composite tubes. Maximizing the spacecraft’s attitude control authority, varying the feedstock and construction process based on the structure size, and using multiple spacecraft can enable faster construction. {% cite bhundiya2024fabrication %}
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/publication_preview/JMEPPreview.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/publication_preview/FTDPreview.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<!-- <div class="caption">
+    Caption
+</div> -->

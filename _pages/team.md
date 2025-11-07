@@ -14,7 +14,7 @@ profiles:
     image_circular: false # crops the image to make it circular
     more_info: >
       **Principal Investigator** <br>
-      <a href="mailto:bhundiya@umd.edu">bhundiya@umd.edu</a> · <a href="/assets/pdf/BhundiyaCV_Sep2025.pdf" target="_blank" rel="noopener">CV</a>
+      <a href="mailto:bhundiya@umd.edu">bhundiya@umd.edu</a> · <a href="/assets/pdf/BhundiyaCV_Nov2025.pdf" target="_blank" rel="noopener">CV</a>
 
   - align: left
     content: team/TBD.md
