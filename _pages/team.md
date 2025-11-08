@@ -16,6 +16,11 @@ profiles:
       **Principal Investigator** <br>
       <a href="mailto:bhundiya@umd.edu">bhundiya@umd.edu</a> · <a href="/assets/pdf/BhundiyaCV_Nov2025.pdf" target="_blank" rel="noopener">CV</a>
 
-  - align: left
-    content: team/TBD.md
+  # - align: left
+  #   content: team/TBD.md
 ---
+
+<p style="font-size:2rem; font-weight:600; margin:2rem 0 0.75rem;">Alumni:</p>
+ - Atharva Shah (B.S. Student, MIT AeroAstro)
+ - Brennan Hoppa (B.S. Student, MIT AeroAstro)
+ - Jack Ansley (B.S. Student, MIT AeroAstro)

@@ -15,6 +15,11 @@ announcements:
   enabled: true # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
+_styles: |
+  /* Home page only: widen profile container */
+  @media (min-width: 576px) {
+    .profile { width: 45%; }
+  }
 ---
 
 Welcome!

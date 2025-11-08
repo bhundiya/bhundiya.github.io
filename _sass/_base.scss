@@ -140,7 +140,7 @@ ul.task-list {
 
 ul.task-list > li ul {
   /* Nested lists within .task-list */
-  padding-inline-start: 1.5rem;
+  padding-inline-start: 1.25rem;
 }
 
 ul.task-list input[type="checkbox"] {
@@ -158,9 +158,9 @@ ul.task-list input[type="checkbox"] {
 // Caption
 
 .caption {
-  font-size: 0.875rem;
+  font-size: 1.25rem;
   margin-top: 0.75rem;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.25rem;
   text-align: center;
 }
 
@@ -217,7 +217,8 @@ ul.task-list input[type="checkbox"] {
 
 @media (min-width: 576px) {
   .profile {
-    width: 45%;
+    /* Keep default profile width modest globally; increase only where needed via page-specific _styles */
+    width: 20%;
 
     .address {
       p {
@@ -229,7 +230,7 @@ ul.task-list input[type="checkbox"] {
 
 .post-description {
   margin-bottom: 2rem;
-  font-size: 0.875rem;
+  font-size: 1.25rem;
 
   a {
     color: inherit;
@@ -596,13 +597,13 @@ footer.sticky-bottom {
 
     .post-meta {
       color: var(--global-text-color-light);
-      font-size: 0.875rem;
+      font-size: 1.25rem;
       margin-bottom: 0;
     }
 
     .post-tags {
       color: var(--global-text-color-light);
-      font-size: 0.875rem;
+      font-size: 1.25rem;
       padding-top: 0.25rem;
       padding-bottom: 0;
     }
@@ -668,6 +669,7 @@ footer.sticky-bottom {
     &:hover {
       .card-title {
         color: var(--global-theme-color);
+        font-size: 1.75rem; /* adjust this to your preference */
       }
     }
   }
@@ -715,7 +717,7 @@ footer.sticky-bottom {
     margin-bottom: 1rem;
 
     span {
-      font-size: 1.5rem;
+      font-size: 1.25rem;
     }
   }
 
@@ -829,7 +831,7 @@ footer.sticky-bottom {
       }
 
       .hidden {
-        font-size: 0.875rem;
+        font-size: 1.25rem;
         max-height: 0px;
         overflow: hidden;
         text-align: justify;
@@ -917,13 +919,13 @@ html.transition *:after {
 .post {
   .post-meta {
     color: var(--global-text-color-light);
-    font-size: 0.875rem;
+    font-size: 1.25rem;
     margin-bottom: 0;
   }
 
   .post-tags {
     color: var(--global-text-color-light);
-    font-size: 0.875rem;
+    font-size: 1.25rem;
     padding-top: 0.25rem;
     padding-bottom: 1rem;
 
@@ -1128,7 +1130,7 @@ nav[data-toggle="toc"] {
 
   .post-meta {
     color: var(--global-text-color-light);
-    font-size: 0.875rem;
+    font-size: 1.25rem;
     margin-bottom: 0;
     padding-top: 0.5rem;
   }
