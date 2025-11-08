@@ -178,6 +178,16 @@ ul.task-list input[type="checkbox"] {
     color: var(--global-text-color);
   }
 
+  /* Reusable section heading (used on publications, join, research pages) */
+  .pub-section-heading {
+    font-size: 1.6rem;
+    margin: 2rem 0 1rem;
+    color: var(--global-theme-color);
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+  }
+
   .card-body {
     padding: 1.25rem 1.25rem 1.25rem 1.25rem;
   }

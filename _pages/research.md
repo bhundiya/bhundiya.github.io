@@ -18,11 +18,10 @@ In-space assembly and manufacturing (ISAM) offer a promising path forward by ena
 
 The SPARC Lab tackles these challenges through interdisciplinary research in mechanics, dynamics, and robotics. We aim to develop the fundamental technologies for efficient and precise ISAM, demonstrate them through ground and space-based experiments, and enable the construction of large-scale infrastructure in orbit and on planetary surfaces.
 
-<p style="font-size:2rem; font-weight:600; margin:2rem 0 0.75rem;">Current focus areas:</p>
+<!-- Display focus areas as cards -->
+<h3 class="pub-section-heading">Current focus areas</h3>
 <div class="projects">
-<!-- Display projects without categories -->
 {% assign sorted_projects = site.projects | sort: "importance" %}
-  <!-- Generate cards for each project -->
 {% if page.horizontal %}
 <div class="container">
   <div class="row row-cols-1 row-cols-md-2">
@@ -40,14 +39,16 @@ The SPARC Lab tackles these challenges through interdisciplinary research in mec
 {% endif %}
 </div>
 
-<p style="font-size:2rem; font-weight:600; margin:2rem 0 0.75rem;">Current/past collaborators:</p>
+<!-- Collaborator logos -->
+<h3 class="pub-section-heading">Current/past collaborators</h3>
 
 <div class="collaborator-logos">
-  <img src="{{ '/assets/img/logos/MITlogo.png' | relative_url }}" alt="MIT">
-  <img src="{{ '/assets/img/logos/APLlogo.png' | relative_url }}" alt="APL">
-  <img src="{{ '/assets/img/logos/JPLlogo.png' | relative_url }}" alt="JPL">
+  <img src="{{ '/assets/img/logos/MITlogo_cut.png' | relative_url }}" alt="MIT">
+  <img src="{{ '/assets/img/logos/NASAlogo.png' | relative_url }}" alt="NASA">
+  <img src="{{ '/assets/img/logos/JPLlogo_cut.png' | relative_url }}" alt="JPL">
+  <img src="{{ '/assets/img/logos/NGClogo_cut.png' | relative_url }}" alt="Northrop Grumman">
   <img src="{{ '/assets/img/logos/MITLLlogo.png' | relative_url }}" alt="MIT Lincoln Laboratory">
-  <img src="{{ '/assets/img/logos/NGClogo.png' | relative_url }}" alt="Northrop Grumman">
+  <img src="{{ '/assets/img/logos/APLlogo_cut.png' | relative_url }}" alt="APL">
 </div>
 
 <style>
@@ -65,7 +66,7 @@ The SPARC Lab tackles these challenges through interdisciplinary research in mec
   height: 60px;
   width: auto;
   object-fit: contain;
-  filter: grayscale(100%);
+  filter: grayscale(0%);
   opacity: 0.7;
   transition: all 0.3s ease;
 }

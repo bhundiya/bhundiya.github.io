@@ -4,6 +4,7 @@ permalink: /publications/
 title: Publications
 nav: true
 nav_order: 4
+# {% bibliography %}
 _styles: |
   /* Styled headings for publication sections */
   .publications .pub-section-heading {
@@ -22,7 +23,6 @@ Please see Prof. Bhundiya's [Google Scholar page](https://scholar.google.com/cit
 <!-- Bibsearch Feature -->
 {% include bib_search.liquid %}
 
-<!-- {% bibliography %} -->
 <div class="publications">
 <h3 class="pub-section-heading">Journal Articles</h3>
 {% bibliography --file papers --group_by none --query @article %}
