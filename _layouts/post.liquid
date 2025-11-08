@@ -75,7 +75,17 @@ layout: default
   {% endif %}
 
   {% if page.related_publications %}
-    <h2>Related Publications</h2>
+    <style>
+    .red-section-heading {
+      font-size: 1.6rem;
+      margin: 2rem 0 1rem;
+      color: var(--global-theme-color);
+      text-align: left;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+    }
+    </style>
+    <h3 class="red-section-heading">Related Publications:</h3>
     <div class="publications">
       {% bibliography --group_by none --cited_in_order %}
     </div>

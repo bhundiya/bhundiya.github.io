@@ -19,7 +19,7 @@ In-space assembly and manufacturing (ISAM) offer a promising path forward by ena
 The SPARC Lab tackles these challenges through interdisciplinary research in mechanics, dynamics, and robotics. We aim to develop the fundamental technologies for efficient and precise ISAM, demonstrate them through ground and space-based experiments, and enable the construction of large-scale infrastructure in orbit and on planetary surfaces.
 
 <!-- Display focus areas as cards -->
-<h3 class="pub-section-heading">Current focus areas</h3>
+<h3 class="red-section-heading">Current focus areas:</h3>
 <div class="projects">
 {% assign sorted_projects = site.projects | sort: "importance" %}
 {% if page.horizontal %}
@@ -40,18 +40,26 @@ The SPARC Lab tackles these challenges through interdisciplinary research in mec
 </div>
 
 <!-- Collaborator logos -->
-<h3 class="pub-section-heading">Current/past collaborators</h3>
+<h3 class="red-section-heading">Current/past collaborators:</h3>
 
 <div class="collaborator-logos">
   <img src="{{ '/assets/img/logos/MITlogo_cut.png' | relative_url }}" alt="MIT">
   <img src="{{ '/assets/img/logos/NASAlogo.png' | relative_url }}" alt="NASA">
   <img src="{{ '/assets/img/logos/JPLlogo_cut.png' | relative_url }}" alt="JPL">
-  <img src="{{ '/assets/img/logos/NGClogo_cut.png' | relative_url }}" alt="Northrop Grumman">
-  <img src="{{ '/assets/img/logos/MITLLlogo.png' | relative_url }}" alt="MIT Lincoln Laboratory">
+  <img src="{{ '/assets/img/logos/NGClogo.png' | relative_url }}" alt="Northrop Grumman">
   <img src="{{ '/assets/img/logos/APLlogo_cut.png' | relative_url }}" alt="APL">
+  <img src="{{ '/assets/img/logos/MITLLlogo.png' | relative_url }}" alt="MIT Lincoln Laboratory">
 </div>
 
 <style>
+.red-section-heading {
+  font-size: 1.6rem;
+  margin: 2rem 0 1rem;
+  color: var(--global-theme-color);
+  text-align: left;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
 .collaborator-logos {
   display: flex;
   flex-wrap: wrap;
@@ -63,19 +71,13 @@ The SPARC Lab tackles these challenges through interdisciplinary research in mec
 }
 
 .collaborator-logos img {
-  height: 60px;
+  height: 55px;
   width: auto;
   object-fit: contain;
   filter: grayscale(0%);
-  opacity: 0.7;
-  transition: all 0.3s ease;
+  opacity: 1;
 }
 
-.collaborator-logos img:hover {
-  filter: grayscale(0%);
-  opacity: 1;
-  transform: scale(1.05);
-}
 
 @media (max-width: 768px) {
   .collaborator-logos img {

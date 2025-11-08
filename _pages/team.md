@@ -20,9 +20,20 @@ profiles:
   #   content: team/TBD.md
 ---
 
+<style>
+.red-section-heading {
+  font-size: 1.6rem;
+  margin: 2rem 0 1rem;
+  color: var(--global-theme-color);
+  text-align: left;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+</style>
+
 <hr>
 
-<h3 class="pub-section-heading">Alumni</h3>
+<h3 class="red-section-heading">Alumni:</h3>
 
  - Atharva Shah (B.S. Student, MIT AeroAstro)
  - Brennan Hoppa (B.S. Student, MIT AeroAstro)
