@@ -38,3 +38,4 @@ profiles:
  - Atharva Shah (B.S. Student, MIT AeroAstro)
  - Brennan Hoppa (B.S. Student, MIT AeroAstro)
  - Jack Ansley (B.S. Student, MIT AeroAstro)
+ - Elizabeth Zhu (B.S. Student, MIT AeroAstro)
