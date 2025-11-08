@@ -287,7 +287,10 @@ ul.task-list input[type="checkbox"] {
   }
 
   .navbar-brand {
-    color: var(--global-text-color);
+    color: var(--global-theme-color);
+    font-size: 1.6rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
   }
 
   .navbar-nav .nav-item .nav-link {
@@ -693,6 +696,7 @@ footer.sticky-bottom {
   .card-title {
     font-size: 1.25rem; /* CHANGE THIS VALUE to modify project card title size */
     transition: color 0.2s ease-in-out; /* keep smooth color transition */
+    text-align: center;
   }
 
   /* When project cards are flipped (title above image) ensure bottom image spacing */
