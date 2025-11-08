@@ -71,17 +71,17 @@ ninja.data = [{
           title: 'Spacecraft Attitude Control',
           description: "",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/attitude_control/";
+              window.location.href = "/research/attitude-control/";
             },},{id: "projects-efficient-mission-design",
           title: 'Efficient Mission Design',
           description: "",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/mission_design/";
+              window.location.href = "/research/mission-design/";
             },},{id: "projects-low-power-robotic-construction",
-          title: 'Low-power Robotic Construction',
+          title: 'Low-Power Robotic Construction',
           description: "",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/robotic_construction/";
+              window.location.href = "/research/robotic-construction/";
             },},{
         id: 'social-email',
         title: 'email',
