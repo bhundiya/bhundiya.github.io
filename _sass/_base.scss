@@ -683,7 +683,8 @@ footer.sticky-bottom {
   }
 
   /* Control project card image height (adjust here) */
-  .card-img-top {
+  .card-img-top,
+  .card-img-bottom {
     height: 150px; /* CHANGE THIS VALUE to make cards (and images) shorter/taller */
     object-fit: contain; /* use 'contain' if you prefer no cropping */
   }
@@ -692,6 +693,19 @@ footer.sticky-bottom {
   .card-title {
     font-size: 1.25rem; /* CHANGE THIS VALUE to modify project card title size */
     transition: color 0.2s ease-in-out; /* keep smooth color transition */
+  }
+
+  /* When project cards are flipped (title above image) ensure bottom image spacing */
+  .project-flipped {
+    display: flex;
+    flex-direction: column;
+
+    .card-img-bottom {
+      width: 100%;
+      margin-top: auto; /* keep image after text */
+      border-top: 1px solid var(--global-divider-color);
+      padding-top: 0.75rem;
+    }
   }
 
   .col {

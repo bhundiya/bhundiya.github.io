@@ -78,6 +78,16 @@ The SPARC Lab tackles these challenges through interdisciplinary research in mec
   opacity: 1;
 }
 
+/* Make specific logos smaller for visual balance */
+.collaborator-logos img[alt="Northrop Grumman"],
+.collaborator-logos img[alt="JPL"] {
+  height: 45px;
+}
+/* Make specific logos smaller for visual balance */
+.collaborator-logos img[alt="MIT Lincoln Laboratory"] {
+  height: 50px;
+}
+
 
 @media (max-width: 768px) {
   .collaborator-logos img {
