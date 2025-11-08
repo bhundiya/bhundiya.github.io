@@ -24,21 +24,61 @@ The SPARC Lab tackles these challenges through interdisciplinary research in mec
 {% assign sorted_projects = site.projects | sort: "importance" %}
   <!-- Generate cards for each project -->
 {% if page.horizontal %}
-  <div class="container">
-    <div class="row row-cols-1 row-cols-md-2">
-    {% for project in sorted_projects %}
-      {% include projects_horizontal.liquid %}
-    {% endfor %}
-    </div>
+<div class="container">
+  <div class="row row-cols-1 row-cols-md-2">
+  {% for project in sorted_projects %}
+    {% include projects_horizontal.liquid %}
+  {% endfor %}
   </div>
-  {% else %}
-  <div class="row row-cols-1 row-cols-md-3">
-    {% for project in sorted_projects %}
-      {% include projects.liquid %}
-    {% endfor %}
-  </div>
-  {% endif %}
+</div>
+{% else %}
+<div class="row row-cols-1 row-cols-md-3">
+  {% for project in sorted_projects %}
+    {% include projects.liquid %}
+  {% endfor %}
+</div>
 {% endif %}
 </div>
 
 <p style="font-size:2rem; font-weight:600; margin:2rem 0 0.75rem;">Current/past collaborators:</p>
+
+<div class="collaborator-logos">
+  <img src="{{ '/assets/img/logos/MITlogo.png' | relative_url }}" alt="MIT">
+  <img src="{{ '/assets/img/logos/APLlogo.png' | relative_url }}" alt="APL">
+  <img src="{{ '/assets/img/logos/JPLlogo.png' | relative_url }}" alt="JPL">
+  <img src="{{ '/assets/img/logos/MITLLlogo.png' | relative_url }}" alt="MIT Lincoln Laboratory">
+  <img src="{{ '/assets/img/logos/NGClogo.png' | relative_url }}" alt="Northrop Grumman">
+</div>
+
+<style>
+.collaborator-logos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin: 2rem 0;
+  max-width: 100%;
+}
+
+.collaborator-logos img {
+  height: 60px;
+  width: auto;
+  object-fit: contain;
+  filter: grayscale(100%);
+  opacity: 0.7;
+  transition: all 0.3s ease;
+}
+
+.collaborator-logos img:hover {
+  filter: grayscale(0%);
+  opacity: 1;
+  transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+  .collaborator-logos img {
+    height: 50px;
+  }
+}
+</style>
