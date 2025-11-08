@@ -32,5 +32,12 @@ layout: page
         </div>
       {% endfor %}
     {% endif %}
+
+    <!-- Render any additional content after profiles -->
+    {% if content %}
+      <div class="clearfix">
+        {{ content }}
+      </div>
+    {% endif %}
   </article>
 </div>
