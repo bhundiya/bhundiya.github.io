@@ -279,7 +279,8 @@ ul.task-list input[type="checkbox"] {
   }
 }
 
-.navbar-brand {
+/* Style only the text navbar title like red-section-heading */
+.navbar .navbar-brand.title {
   color: var(--global-theme-color);
   font-size: 1.6rem;
   font-weight: 600;
