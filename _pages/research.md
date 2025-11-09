@@ -19,7 +19,7 @@ In-space assembly and manufacturing (ISAM) offer a promising path forward by ena
 The SPARC Lab tackles these challenges through interdisciplinary research in mechanics, dynamics, and robotics. We aim to develop the fundamental technologies for efficient and precise ISAM, demonstrate them through ground and space-based experiments, and enable the construction of large-scale infrastructure in orbit and on planetary surfaces.
 
 <!-- Display focus areas as cards -->
-<h3 class="red-section-heading">Current focus areas:</h3>
+<h3 class="red-section-heading">Current Focus Areas</h3>
 <div class="projects">
 {% assign sorted_projects = site.projects | sort: "importance" %}
 {% if page.horizontal %}
@@ -40,7 +40,7 @@ The SPARC Lab tackles these challenges through interdisciplinary research in mec
 </div>
 
 <!-- Collaborator logos -->
-<h3 class="red-section-heading">Current/past collaborators:</h3>
+<h3 class="red-section-heading">Collaborators</h3>
 
 <div class="collaborator-logos">
   <img src="{{ '/assets/img/logos/MITlogo_cut.png' | relative_url }}" alt="MIT">

@@ -283,7 +283,7 @@ ul.task-list input[type="checkbox"] {
 .navbar .navbar-brand.title {
   color: var(--global-theme-color);
   font-size: 1.6rem;
-  font-weight: 600;
+  font-weight: 700;
   letter-spacing: 0.5px;
 }
 
@@ -296,6 +296,9 @@ ul.task-list input[type="checkbox"] {
 
   .navbar-nav .nav-item .nav-link {
     color: var(--global-text-color);
+    /* Adjust navigation tab typography here */
+    font-weight: 600; /* Make all nav links semi-bold */
+    font-size: 1rem; /* Increase/decrease to taste (e.g., 0.95rem, 1.05rem) */
 
     &:hover {
       color: var(--global-hover-color);
@@ -304,7 +307,7 @@ ul.task-list input[type="checkbox"] {
 
   .navbar-nav .nav-item.active > .nav-link {
     background-color: inherit;
-    font-weight: bolder;
+    font-weight: 700; /* Slightly heavier for active tab, was "bolder" */
     color: var(--global-theme-color);
 
     &:hover {
@@ -588,6 +591,26 @@ footer.sticky-bottom {
   mjx-container[jax="CHTML"][display="true"] {
     display: unset;
   }
+}
+
+/* Global red-section-heading class for consistent heading styling */
+.red-section-heading {
+  font-size: 1.6rem;
+  margin: 2rem 0 1rem;
+  color: var(--global-theme-color);
+  text-align: left;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+/* Global page/post title styling */
+.post .post-header .post-title {
+  font-size: 2.5rem; /* Keep requested size */
+  margin: 2rem 0 1rem; /* Same vertical rhythm as red-section-heading */
+  color: var(--global-theme-color); /* Red theme color */
+  text-align: left; /* Align left like red-section-heading */
+  font-weight: 600; /* Match red-section-heading weight */
+  letter-spacing: 0.5px; /* Match red-section-heading spacing */
 }
 
 .post-list {

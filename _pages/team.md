@@ -33,7 +33,7 @@ profiles:
 
 <hr>
 
-<h3 class="red-section-heading">Alumni:</h3>
+<h3 class="red-section-heading">Alumni</h3>
 
  - Atharva Shah (B.S. Student, MIT AeroAstro)
  - Brennan Hoppa (B.S. Student, MIT AeroAstro)
