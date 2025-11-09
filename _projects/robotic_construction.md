@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Low-Power Robotic Construction
+title: Low-power robotic construction
 img: assets/img/publication_preview/BendFormingPreview.png
 importance: 2
 category: work

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Spacecraft Attitude Control
+title: Spacecraft attitude control
 img: assets/img/publication_preview/GGCapturePreview1.png
 importance: 3
 category: work

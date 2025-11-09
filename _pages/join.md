@@ -17,7 +17,7 @@ nav_order: 5
 }
 </style>
 
-The SPARC lab welcomes motivated individuals interested in space structures and robotic construction. We are currently recruiting M.S. students, Ph.D. students, and postdoctoral scholars with backgrounds in mechanics, dynamics and control, robotics, and related fields. Please note that the SPARC lab will officially launch in Fall 2026, but we welcome early inquiries.
+The SPARC lab welcomes motivated individuals interested in space structures and robotic construction. We are currently recruiting M.S. and Ph.D. students with backgrounds in mechanics, dynamics and control, robotics, and related fields. Please note that the SPARC lab will officially launch in Fall 2026, but we welcome early inquiries.
 
 <h3 class="red-section-heading">Prospective Advisees</h3>
 

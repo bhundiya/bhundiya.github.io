@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Efficient Mission Design
+title: Efficient mission design
 img: assets/img/publication_preview/FTDPreview.png
 importance: 1
 category: work
