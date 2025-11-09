@@ -68,17 +68,17 @@ ninja.data = [{
           title: 'The SPARC lab website is live!',
           description: "",
           section: "News",},{id: "projects-spacecraft-attitude-control",
-          title: 'Spacecraft Attitude Control',
+          title: 'Spacecraft attitude control',
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/research/attitude-control/";
             },},{id: "projects-efficient-mission-design",
-          title: 'Efficient Mission Design',
+          title: 'Efficient mission design',
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/research/mission-design/";
             },},{id: "projects-low-power-robotic-construction",
-          title: 'Low-Power Robotic Construction',
+          title: 'Low-power robotic construction',
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/research/robotic-construction/";
