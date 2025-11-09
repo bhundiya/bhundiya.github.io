@@ -19,11 +19,3 @@ profiles:
   # - align: left
   #   content: team/TBD.md
 ---
-
-
-<h3 class="black-section-heading">Alumni</h3>
-
- - Atharva Shah (B.S. Student, MIT AeroAstro)
- - Brennan Hoppa (B.S. Student, MIT AeroAstro)
- - Jack Ansley (B.S. Student, MIT AeroAstro)
- - Elizabeth Zhu (B.S. Student, MIT AeroAstro)
