@@ -75,17 +75,7 @@ layout: default
   {% endif %}
 
   {% if page.related_publications %}
-    <style>
-    .red-section-heading {
-      font-size: 1.6rem;
-      margin: 2rem 0 1rem;
-      color: var(--global-theme-color);
-      text-align: left;
-      font-weight: 600;
-      letter-spacing: 0.5px;
-    }
-    </style>
-    <h3 class="red-section-heading">Related Publications</h3>
+    <h3 class="black-section-heading">Related Publications</h3>
     <div class="publications">
       {% bibliography --cited --order descending --sort_by year --group_by none %}
     </div>

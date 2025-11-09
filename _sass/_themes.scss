@@ -10,6 +10,8 @@
   --global-code-bg-color: #{$code-bg-color-light};
   --global-text-color: #{$black-color};
   --global-text-color-light: #{$grey-color};
+  /* Base body text size (affects paragraphs and general text, not titles/navbar) */
+  --global-body-font-size: 1rem;
   /* Customized brand color override */
   --global-theme-color: #e21833; /* Maryland red */
   --global-hover-color: #e21833;
@@ -83,6 +85,8 @@ html[data-theme="dark"] {
   --global-code-bg-color: #{$code-bg-color-dark};
   --global-text-color: #{$grey-color-light};
   --global-text-color-light: #{$grey-color};
+  /* Keep same default for dark; adjust if you want different base size */
+  --global-body-font-size: 1rem;
   /* Match brand color in dark mode as well */
   --global-theme-color: #e21833;
   --global-hover-color: #e21833;

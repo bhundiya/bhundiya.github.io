@@ -7,10 +7,10 @@ nav_order: 4
 # {% bibliography %}
 _styles: |
   /* Styled headings for publication sections */
-  .publications .red-section-heading {
+  .publications .black-section-heading {
     font-size: 1.6rem;
     margin: 2rem 0 1rem;
-    color: var(--global-theme-color);
+    color: var(--global-text-color);
     text-align: center;
     font-weight: 600;
     letter-spacing: 0.5px;
@@ -24,8 +24,8 @@ Please see Prof. Bhundiya's [Google Scholar page](https://scholar.google.com/cit
 {% include bib_search.liquid %}
 
 <div class="publications">
-<h3 class="red-section-heading">Journal Articles</h3>
+<h3 class="black-section-heading">Journal Articles</h3>
 {% bibliography --file papers --group_by none --query @article %}
-<h3 class="red-section-heading">Conference Papers</h3>
+<h3 class="black-section-heading">Conference Papers</h3>
 {% bibliography --file papers --group_by none --query @inproceedings %}
 </div>

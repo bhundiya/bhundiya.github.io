@@ -4,6 +4,12 @@
 
 // Typography
 
+/* Base text size knob (excludes titles/navbar which have explicit sizes) */
+body {
+  font-size: var(--global-body-font-size);
+  line-height: 1.6;
+}
+
 p,
 h1,
 h2,
@@ -593,7 +599,7 @@ footer.sticky-bottom {
   }
 }
 
-/* Global red-section-heading class for consistent heading styling */
+/* Global black and red section heading classes for consistent heading styling */
 .red-section-heading {
   font-size: 1.6rem;
   margin: 2rem 0 1rem;
@@ -603,11 +609,20 @@ footer.sticky-bottom {
   letter-spacing: 0.5px;
 }
 
+.black-section-heading {
+  font-size: 1.6rem;
+  margin: 2rem 0 1rem;
+  color: var(--global-text-color);
+  text-align: left;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
 /* Global page/post title styling */
 .post .post-header .post-title {
   font-size: 2.5rem; /* Keep requested size */
   margin: 2rem 0 1rem; /* Same vertical rhythm as red-section-heading */
-  color: var(--global-text-color); /* Black theme color, red was: var(--global-theme-color) */
+  color: var(--global-text-color); /* Theme color, red: var(--global-theme-color), black: var(--global-text-color) */
   text-align: left; /* Align left like red-section-heading */
   font-weight: 600; /* Match red-section-heading weight */
   letter-spacing: 0.5px; /* Match red-section-heading spacing */
@@ -791,9 +806,7 @@ footer.sticky-bottom {
 
     li {
       margin-bottom: 1rem;
-
-      .preview {
-      }
+      /* .preview empty ruleset removed */
 
       .abbr {
         margin-bottom: 0.5rem;
