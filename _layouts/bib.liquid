@@ -52,12 +52,12 @@
     <!-- Title -->
     <div class="title">
       {% if entry.url %}
-        <a href="{{ entry.url }}">{{ entry.title }}</a>
+        <a href="{{ entry.url }}" style="color: var(--global-text-color); text-decoration: none;">{{ entry.title }}</a>
       {% elsif entry.pdf %}
         {% if entry.pdf contains '://' %}
-          <a href="{{ entry.pdf }}">{{ entry.title }}</a>
+          <a href="{{ entry.pdf }}" style="color: var(--global-text-color); text-decoration: none;">{{ entry.title }}</a>
         {% else %}
-          <a href="{{ entry.pdf | prepend: '/assets/pdf/' | relative_url }}">{{ entry.title }}</a>
+          <a href="{{ entry.pdf | prepend: '/assets/pdf/' | relative_url }}" style="color: var(--global-text-color); text-decoration: none;">{{ entry.title }}</a>
         {% endif %}
       {% else %}
         {{ entry.title }}

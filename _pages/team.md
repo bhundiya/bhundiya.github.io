@@ -14,7 +14,7 @@ profiles:
     content: team/harsh.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <span style="font-size: 2rem; font-weight: 700;">Harsh Bhundiya</span> <br>
+      <span style="font-size: 1.25rem; font-weight: 700;">Harsh G. Bhundiya</span> <br>
       **Assistant Professor** <br>
       <a href="mailto:bhundiya@umd.edu">bhundiya@umd.edu</a> · <a href="/assets/pdf/BhundiyaCV_Nov2025.pdf" target="_blank" rel="noopener">CV</a>
 

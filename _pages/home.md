@@ -19,15 +19,13 @@ announcements:
 _styles: |
   /* Home page only: widen profile container */
   @media (min-width: 576px) {
-    .profile { width: 45%; }
+    .profile { width: 48%; }
   }
 ---
 
 Welcome!
 
-The Space Structures and Robotic Construction (SPARC) Lab conducts interdisciplinary research at the intersection of **mechanics**, **dynamics**, and **robotics**.
-
-Our vision is to develop mass-efficient structures and robotic construction systems for applications including large space telescopes, high-power communication systems, and habitats on the Moon and Mars.
+The Space Structures and Robotic Construction (SPARC) Lab conducts interdisciplinary research at the intersection of **mechanics**, **dynamics**, and **robotics**. Our vision is to develop mass-efficient structures and robotic construction systems for applications including large space telescopes, high-power communication systems, and habitats on the Moon and Mars.
 
 Our current research interests include:
  - Efficient mission design for in-space assembly and manufacturing

@@ -18,15 +18,6 @@ layout: default
     {{ content }}
   </article>
 
-  {% if page.category == 'work' %}
-    <!-- Back to Research link for project pages -->
-    <div style="margin-top: 1.5rem; margin-bottom: 1.5rem;">
-      <a href="{{ '/research/' | relative_url }}" style="color: var(--global-theme-color); text-decoration: none; font-size: 1rem;">
-        ← Back to Research
-      </a>
-    </div>
-  {% endif %}
-
   {% if page.related_publications %}
     <style>
     /* Hide any group headers and years inside related publications */
@@ -36,6 +27,15 @@ layout: default
     <h3 class="black-section-heading">Related Publications</h3>
     <div class="publications">
       {% bibliography --cited --order descending --sort_by year --group_by none %}
+    </div>
+  {% endif %}
+
+  {% if page.category == 'work' %}
+    <!-- Back to Research link for project pages -->
+    <div style="margin-top: 1.5rem; margin-bottom: 1.5rem;">
+      <a href="{{ '/research/' | relative_url }}" style="color: var(--global-theme-color); text-decoration: none; font-size: 1rem; font-weight: 700; letter-spacing: 0.5px;">
+        ← Back to Research
+      </a>
     </div>
   {% endif %}
 
