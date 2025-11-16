@@ -2,6 +2,7 @@
 layout: page
 title: Low-power robotic construction
 img: assets/img/publication_preview/BendFormingPreview.png
+alt: "Bend-Forming process for constructing truss structures from ductile feedstock"
 importance: 2
 category: work
 related_publications: true

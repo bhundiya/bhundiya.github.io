@@ -10,10 +10,12 @@ profiles:
   # and create one content file for each profile inside _pages/
   - align: left
     image: HarshPortrait.jpg
+    alt: "Portrait of Prof. Harsh Bhundiya"
     content: team/harsh.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      **Principal Investigator** <br>
+      <span style="font-size: 2rem; font-weight: 700;">Harsh Bhundiya</span> <br>
+      **Assistant Professor** <br>
       <a href="mailto:bhundiya@umd.edu">bhundiya@umd.edu</a> · <a href="/assets/pdf/BhundiyaCV_Nov2025.pdf" target="_blank" rel="noopener">CV</a>
 
   # - align: left

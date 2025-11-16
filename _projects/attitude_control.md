@@ -2,6 +2,7 @@
 layout: page
 title: Spacecraft attitude control
 img: assets/img/publication_preview/GGCapturePreview1.png
+alt: "Visualization of gravity gradient capture during in-space construction"
 importance: 3
 category: work
 related_publications: true

@@ -21,12 +21,13 @@
         </div>
       </div>
       {% if project.img %}
+        {% assign project_alt = project.alt | default: project.title %}
         {%
           include figure.liquid
           loading="eager"
           path=project.img
           sizes = "250px"
-          alt="project thumbnail"
+          alt=project_alt
           class="card-img-bottom"
         %}
       {% endif %}
