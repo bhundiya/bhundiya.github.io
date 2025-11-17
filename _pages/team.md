@@ -20,4 +20,9 @@ profiles:
 
   # - align: left
   #   content: team/TBD.md
+
+_styles: |
+  @media (min-width: 576px) {
+    .profile { width: 20%; }
+  }
 ---
