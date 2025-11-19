@@ -23,6 +23,6 @@ profiles:
 
 _styles: |
   @media (min-width: 576px) {
-    .profile { width: 20%; }
+    .profile { width: 22.5%; }
   }
 ---

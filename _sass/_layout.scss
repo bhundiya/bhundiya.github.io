@@ -38,6 +38,32 @@ body.sticky-bottom-footer {
   }
 }
 
+// Mobile tweaks: reduce portrait and publication preview widths so they don't span full screen
+@media (max-width: 575.98px) {
+  // Team portraits
+  .profile {
+    width: 50%; // occupy half the screen width on mobile
+    margin: 0 auto 1.5rem; // center and add spacing
+  }
+  .profile img {
+    width: 100%;
+    height: auto;
+  }
+
+  // Publication preview images (class .preview inside col-sm-2)
+  .preview {
+    width: 50%; // half screen width
+    max-width: none; // allow scaling to designated percentage
+    display: block;
+    margin: 0.5rem auto 0.75rem; // center with spacing
+  }
+
+  // Abbreviation badge column center alignment
+  .abbr {
+    text-align: center;
+  }
+}
+
 // TODO: redefine content layout.
 
 /******************************************************************************
