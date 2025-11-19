@@ -25,4 +25,8 @@ _styles: |
   @media (min-width: 576px) {
     .profile { width: 22.5%; }
   }
+  /* Mobile: ensure 50% width override applies */
+  @media (max-width: 575.98px) {
+    .profile { width: 50% !important; }
+  }
 ---
