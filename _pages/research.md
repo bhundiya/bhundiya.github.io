@@ -16,7 +16,7 @@ In-space assembly and manufacturing (ISAM) offer a promising path forward by ena
  - **Precise structures** are difficult to construct with open-loop ISAM processes.
  - The changes in mass properties over long timescales of construction pose challenges to **spacecraft attitude control**.
 
-The SPARC Lab tackles these challenges through interdisciplinary research in mechanics, dynamics, and robotics. We aim to develop the fundamental technologies for efficient and precise ISAM, demonstrate them through ground and space-based experiments, and enable the construction of large-scale infrastructure in orbit and on planetary surfaces.
+The SPARC Lab tackles these challenges through interdisciplinary research in mechanics, dynamics, and robotics. We aim to develop the fundamental technologies for efficient and precise ISAM, demonstrate them through ground- and space-based experiments, and enable the construction of large-scale infrastructure on orbit and on planetary surfaces.
 
 <!-- Display focus areas as cards -->
 <h3 class="black-section-heading">Current Focus Areas</h3>
