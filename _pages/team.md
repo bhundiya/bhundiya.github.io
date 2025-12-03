@@ -16,7 +16,7 @@ profiles:
     more_info: >
       <span style="font-size: 1.25rem; font-weight: 700;">Harsh Bhundiya</span> <br>
       **Assistant Professor** <br>
-      <a href="mailto:bhundiya@umd.edu">bhundiya@umd.edu</a> · <a href="/assets/pdf/BhundiyaCV_Nov2025.pdf" target="_blank" rel="noopener">CV</a>
+      <a href="mailto:bhundiya@umd.edu">bhundiya@umd.edu</a> · <a href="/assets/pdf/BhundiyaCV_Dec2025.pdf" target="_blank" rel="noopener">CV</a>
 
   # - align: left
   #   content: team/TBD.md
