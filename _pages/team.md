@@ -9,7 +9,7 @@ profiles:
   # if you want to include more than one profile, just replicate the following block
   # and create one content file for each profile inside _pages/
   - align: left
-    image: HarshPortraitCropped.jpg
+    image: HarshPortraitBest.jpg
     alt: "Portrait of Prof. Harsh Bhundiya"
     content: team/harsh.md
     image_circular: false # crops the image to make it circular
