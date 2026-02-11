@@ -1,4 +1,1 @@
-User-agent: *
-Disallow:
-
 Sitemap: https://bhundiya.github.io/sitemap.xml
