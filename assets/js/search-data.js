@@ -67,11 +67,11 @@ ninja.data = [{
             },},{id: "news-the-sparc-lab-website-is-live",
           title: 'The SPARC lab website is live!',
           description: "",
-          section: "News",},{id: "news-dr-bhundiya-attended-the-keck-institute-of-space-studies-kiss-workshop-on-hybrid-space-ground-observatories",
-          title: 'Dr. Bhundiya attended the Keck Institute of Space Studies (KISS) workshop on Hybrid-Space...',
+          section: "News",},{id: "news-kiss-workshop-2026",
+          title: 'KISS Workshop 2026',
           description: "",
           section: "News",handler: () => {
-              window.location.href = "/news/kiss_workshop/";
+              window.location.href = "/news/kissworkshop_2026/";
             },},{id: "projects-spacecraft-attitude-control",
           title: 'Spacecraft attitude control',
           description: "",
