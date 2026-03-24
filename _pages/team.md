@@ -20,6 +20,7 @@ profiles:
 
   # - align: left
   #   content: team/TBD.md
+  # ADD STUDENTS! FIRST SAM ONDRUSEK
 
 _styles: |
   @media (min-width: 576px) {

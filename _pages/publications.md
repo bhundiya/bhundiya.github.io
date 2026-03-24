@@ -16,7 +16,7 @@ _styles: |
     letter-spacing: 0.5px;
   }
 ---
-Please see Prof. Bhundiya's [Google Scholar page](https://scholar.google.com/citations?user=1wCSzO0AAAAJ&hl=en) for the latest publications.
+Please see Dr. Bhundiya's [Google Scholar page](https://scholar.google.com/citations?user=1wCSzO0AAAAJ&hl=en) for the latest publications.
 
 <!-- _pages/publications.md -->
 
