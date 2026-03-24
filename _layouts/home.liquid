@@ -47,7 +47,7 @@ layout: default
 
     <!-- News -->
     {% if page.announcements and page.announcements.enabled %}
-      <h2 class="red-section-heading">
+      <h2 class="red-section-heading" style="color: black;">
         <a href="{{ '/news/' | relative_url }}" style="color: inherit; text-decoration: none;">Latest News</a>
       </h2>
       {% include news.liquid limit=true %}
@@ -55,7 +55,7 @@ layout: default
 
     <!-- Latest posts -->
     {% if page.latest_posts and page.latest_posts.enabled %}
-      <h2 class="red-section-heading">
+      <h2 class="red-section-heading" style="color: black;">
         <a href="{{ '/blog/' | relative_url }}" style="color: inherit; text-decoration: none;">Latest Posts</a>
       </h2>
       {% include latest_posts.liquid %}
