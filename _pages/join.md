@@ -6,7 +6,6 @@ nav: true
 nav_order: 5
 ---
 
-
 The SPARC lab welcomes motivated individuals interested in space structures and robotic construction. We are currently recruiting M.S. and Ph.D. students with backgrounds in mechanics, dynamics and control, robotics, and related fields. The SPARC lab will officially launch in Fall 2026, but we welcome early inquiries.
 
 <h3 class="black-section-heading">Prospective Advisees</h3>
@@ -21,4 +20,4 @@ My goal as an advisor is to produce high-quality research while providing the ca
 
 <h3 class="black-section-heading">Prospective Collaborators</h3>
 
-The SPARC lab collaborates with many academic, governmental, and commercial entities through research grants. As part of the [UMD Center for Advanced Space Science and Technology Research (ASTRA)](https://astra.umd.edu/), we plan to establish long-term collaborations with Johns Hopkins Applied Physics Laboratory (APL) and NASA Goddard Spaceflight Center. We are also interested in pursuing industry-sponsored research grants and conducting space demonstrations through hosted payloads and rideshare missions. Please [email Prof. Bhundiya](mailto:bhundiya@umd.edu) if you are interested in collaborating.
+The SPARC lab collaborates with academic, governmental, and commercial entities through research grants, joint projects, and technology development efforts. As part of the [UMD Center for Advanced Space Science and Technology Research (ASTRA)](https://astra.umd.edu/), we plan to establish long-term collaborations with Johns Hopkins Applied Physics Laboratory (APL) and NASA Goddard Spaceflight Center. We are also interested in pursuing industry-sponsored research grants and conducting space demonstrations through hosted payloads and rideshare missions. Please [email Prof. Bhundiya](mailto:bhundiya@umd.edu) if you are interested in collaborating.
