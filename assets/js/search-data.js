@@ -67,7 +67,12 @@ ninja.data = [{
             },},{id: "news-the-sparc-lab-website-is-live",
           title: 'The SPARC lab website is live!',
           description: "",
-          section: "News",},{id: "projects-spacecraft-attitude-control",
+          section: "News",},{id: "news-dr-bhundiya-attended-the-keck-institute-of-space-studies-kiss-workshop-on-hybrid-space-ground-observatories",
+          title: 'Dr. Bhundiya attended the Keck Institute of Space Studies (KISS) workshop on Hybrid-Space...',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/kiss_workshop/";
+            },},{id: "projects-spacecraft-attitude-control",
           title: 'Spacecraft attitude control',
           description: "",
           section: "Projects",handler: () => {
