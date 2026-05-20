@@ -50,6 +50,7 @@ The SPARC Lab tackles these challenges through interdisciplinary research in mec
   <img src="{{ '/assets/img/logos/NGClogo.png' | relative_url }}" alt="Northrop Grumman">
   <img src="{{ '/assets/img/logos/APLlogo_cut.png' | relative_url }}" alt="APL">
   <img src="{{ '/assets/img/logos/MITLLlogo.png' | relative_url }}" alt="MIT Lincoln Laboratory">
+  <img src="{{ '/assets/img/logos/USClogo_cut.png' | relative_url }}" alt="USC">
 </div>
 
 <style>
@@ -73,18 +74,12 @@ The SPARC Lab tackles these challenges through interdisciplinary research in mec
 
 /* Make specific logos smaller for visual balance */
 .collaborator-logos img[alt="Northrop Grumman"],
-.collaborator-logos img[alt="JPL"] {
-  height: 45px;
-}
-/* Make specific logos smaller for visual balance */
-.collaborator-logos img[alt="MIT Lincoln Laboratory"] {
-  height: 50px;
-}
+.collaborator-logos img[alt="JPL"] {height: 45px;}
+.collaborator-logos img[alt="MIT Lincoln Laboratory"] {height: 50px;}
+.collaborator-logos img[alt="USC"] {height: 45px;}
 
 
 @media (max-width: 768px) {
-  .collaborator-logos img {
-    height: 50px;
-  }
+  .collaborator-logos img {height: 50px;}
 }
 </style>
