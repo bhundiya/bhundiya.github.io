@@ -72,6 +72,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/kissworkshop_2026/";
+            },},{id: "news-uiuc-isam-workshop-2026",
+          title: 'UIUC ISAM Workshop 2026',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/uiucISAMworkshop_2026/";
             },},{id: "projects-spacecraft-attitude-control",
           title: 'Spacecraft attitude control',
           description: "",
