@@ -45,12 +45,12 @@ The SPARC Lab tackles these challenges through interdisciplinary research in mec
 
 <div class="collaborator-logos">
   <img src="{{ '/assets/img/logos/MITlogo_cut.png' | relative_url }}" alt="MIT">
+  <img src="{{ '/assets/img/logos/USClogo_cut.png' | relative_url }}" alt="USC">
   <img src="{{ '/assets/img/logos/NASAlogo.png' | relative_url }}" alt="NASA">
   <img src="{{ '/assets/img/logos/JPLlogo_cut.png' | relative_url }}" alt="JPL">
   <img src="{{ '/assets/img/logos/NGClogo.png' | relative_url }}" alt="Northrop Grumman">
   <img src="{{ '/assets/img/logos/APLlogo_cut.png' | relative_url }}" alt="APL">
   <img src="{{ '/assets/img/logos/MITLLlogo.png' | relative_url }}" alt="MIT Lincoln Laboratory">
-  <img src="{{ '/assets/img/logos/USClogo_cut.png' | relative_url }}" alt="USC">
 </div>
 
 <style>
