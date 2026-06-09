@@ -77,8 +77,8 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/uiucISAMworkshop_2026/";
-            },},{id: "news-dr-bhundiya-gave-an-invited-talk-titled-towards-rapid-and-efficient-assembly-and-manufacturing-of-large-structures-in-space-at-the-asme-aerospace-structures-structural-dynamics-and-materials-ssdm-conference",
-          title: 'Dr. Bhundiya gave an invited talk titled “Towards Rapid and Efficient Assembly and...',
+            },},{id: "news-dr-bhundiya-gave-a-talk-titled-towards-rapid-and-efficient-assembly-and-manufacturing-of-large-structures-in-space-at-the-asme-aerospace-structures-structural-dynamics-and-materials-ssdm-conference",
+          title: 'Dr. Bhundiya gave a talk titled “Towards Rapid and Efficient Assembly and Manufacturing...',
           description: "",
           section: "News",},{id: "projects-spacecraft-attitude-control",
           title: 'Spacecraft attitude control',
