@@ -16,7 +16,8 @@ profiles:
     more_info: >
       <span style="font-size: 1.25rem; font-weight: 700;">Harsh Bhundiya</span> <br>
       **Assistant Professor** <br>
-      <a href="mailto:bhundiya@umd.edu">bhundiya@umd.edu</a> · <a href="/assets/pdf/HarshBhundiyaCV.pdf" target="_blank" rel="noopener">CV</a>
+      <a href="mailto:bhundiya@umd.edu">bhundiya@umd.edu</a> <br>
+      <a href="/assets/pdf/HarshBhundiyaCV.pdf" target="_blank" rel="noopener">Curriculum Vitae (CV)</a>
 
   - align: left
     image: portraits/current/JoseMorel_NASA.jpeg
