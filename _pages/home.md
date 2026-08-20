@@ -25,11 +25,11 @@ _styles: |
 
 Welcome!
 
-The Space Structures and Robotic Construction (SPARC) Lab conducts interdisciplinary research at the intersection of **mechanics**, **dynamics**, and **robotics**. Our vision is to develop mass-efficient structures and robotic construction processes for applications including large space telescopes, high-power communication systems, and habitats on the Moon and Mars.
+The Space Structures and Robotic Construction (SPARC) Lab conducts interdisciplinary research at the intersection of **mechanics**, **dynamics**, and **robotics**. Our vision is to develop mass-efficient structures and robotic construction processes for applications including large aperture communication systems, large space telescopes,  orbital data centers, and surface infrastructure on the Moon and Mars.
 
 Our current research interests include:
  - Efficient mission design for in-space assembly and manufacturing
  - Low-power robotic construction
  - Spacecraft attitude control
  
-The SPARC lab is led by [Prof. Harsh Bhundiya](https://scholar.google.com/citations?user=1wCSzO0AAAAJ&hl=en) in the [Department of Aerospace Engineering at the University of Maryland](https://aero.umd.edu/). We officially launched at UMD in Fall 2026. [Learn how to join the lab!](join/)
+The SPARC lab is led by [Prof. Harsh Bhundiya](https://scholar.google.com/citations?user=1wCSzO0AAAAJ&hl=en) in the [Department of Aerospace Engineering at the University of Maryland, College Park](https://aero.umd.edu/). We officially launched at UMD in Fall 2026. [Learn how to join the lab!](join/)
