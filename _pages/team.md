@@ -40,10 +40,16 @@ profiles:
 
 _styles: |
   @media (min-width: 576px) {
-    .profile { width: 22.5%; }
+    .profile {
+      width: 20%;
+      max-width: 180px;
+    }
   }
   /* Mobile: ensure 50% width override applies */
   @media (max-width: 575.98px) {
-    .profile { width: 50% !important; }
+    .profile {
+      width: 40% !important;
+      max-width: 180px;
+    }
   }
 ---
