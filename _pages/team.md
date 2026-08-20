@@ -18,7 +18,7 @@ profiles:
       **Assistant Professor** <br>
       <a href="mailto:bhundiya@umd.edu">bhundiya@umd.edu</a> · <a href="/assets/pdf/HarshBhundiyaCV.pdf" target="_blank" rel="noopener">CV</a>
 
- - align: left
+  - align: left
     image: portraits/current/JoseMorel_NASA.jpeg
     alt: "Portrait of PhD student José Morel"
     content: team/josemorel.md
