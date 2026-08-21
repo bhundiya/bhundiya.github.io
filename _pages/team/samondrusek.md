@@ -1,1 +1,1 @@
-TBD
+Sam Ondrusek joined the SPARC Lab in 2026 as an Aerospace Engineering PhD student. His research focuses on the optimal attitude control of spacecraft during in-space servicing, assembly, and manufacturing missions. He holds a B.S. in Aerospace Engineering with a minor in Robotics and Autonomous Systems from the University of Maryland. Alongside his doctoral studies, Sam works full-time as a Modeling and Simulation engineer at the Johns Hopkins Applied Physics Laboratory. In his free time, he enjoys fishing, video games, and 3D printing. 
