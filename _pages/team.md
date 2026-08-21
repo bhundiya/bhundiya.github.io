@@ -45,8 +45,12 @@ _styles: |
     margin-bottom: 2rem;
   }
 
+  .profile:first-of-type {
+    margin-bottom: 0;
+  }
+
   .profile .more-info {
-    margin-top: 0.25rem;
+    margin-top: -0.5rem;
   }
 
   .black-section-heading {
