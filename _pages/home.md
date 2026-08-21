@@ -32,4 +32,4 @@ Our current research interests include:
  - Low-power robotic construction
  - Spacecraft attitude control
  
-The SPARC lab is led by [Prof. Harsh Bhundiya](https://scholar.google.com/citations?user=1wCSzO0AAAAJ&hl=en) in the [Department of Aerospace Engineering at the University of Maryland, College Park](https://aero.umd.edu/). We officially launched at UMD in Fall 2026. [Learn how to join the lab!](join/)
+The SPARC lab is led by [Prof. Harsh Bhundiya](https://aero.umd.edu/clark/faculty/2060/Harsh-Bhundiya) in the [Department of Aerospace Engineering](https://aero.umd.edu/) at the University of Maryland, College Park. We officially launched at UMD in Fall 2026. [Learn how to join the lab!](join/)
