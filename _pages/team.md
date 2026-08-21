@@ -20,26 +20,32 @@ profiles:
       <a href="mailto:bhundiya@umd.edu">bhundiya@umd.edu</a> <br>
 
   - align: left
+    section_heading: Ph.D. Students
     image: portraits/current/JoseMorel_NASA.jpeg
-    alt: "Portrait of PhD student José Morel"
+    alt: "Portrait of Ph.D. student José Morel"
     content: team/josemorel.md
     image_circular: false
     more_info: >
       <span style="font-size: 1.25rem; font-weight: 700;">José Morel</span> <br>
-      **PhD Student** <br>
+      **Ph.D. Student** <br>
 
   - align: left
     image: portraits/current/SamOndrusek.jpg
-    alt: "Portrait of PhD student Sam Ondrusek"
+    alt: "Portrait of Ph.D. student Sam Ondrusek"
     content: team/samondrusek.md
     image_circular: false
     more_info: >
       <span style="font-size: 1.25rem; font-weight: 700;">Sam Ondrusek</span> <br>
-      **PhD Student** <br>
+      **Ph.D. Student** <br>
     
   # ADD STUDENTS
 
 _styles: |
+  .black-section-heading {
+    color: #000;
+    clear: both;
+  }
+
   @media (min-width: 576px) {
     .profile {
       width: 20%;

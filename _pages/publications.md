@@ -11,14 +11,12 @@ _styles: |
     font-size: 1.6rem;
     margin: 2rem 0 1rem;
     color: var(--global-text-color);
-    text-align: center;
     font-weight: 600;
     letter-spacing: 0.5px;
   }
 ---
+<!-- add this to above to center the headings: text-align: center; -->
 Please see Dr. Bhundiya's [Google Scholar page](https://scholar.google.com/citations?user=1wCSzO0AAAAJ&hl=en) for the latest publications.
-
-<!-- _pages/publications.md -->
 
 <!-- Bibsearch Feature -->
 {% include bib_search.liquid %}
