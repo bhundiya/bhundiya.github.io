@@ -9,7 +9,7 @@ profiles:
   # if you want to include more than one profile, just replicate the following block
   # and create one content file for each profile inside _pages/
   - align: left
-    image: portraits/harsh/01-0086-07032026 cropped.jpg
+    image: portraits/harsh/01-0086-07032026 cropped blue.jpg
     alt: "Portrait of Prof. Harsh Bhundiya"
     content: team/harsh.md
     image_circular: false # crops the image to make it circular
@@ -41,6 +41,14 @@ profiles:
   # ADD STUDENTS
 
 _styles: |
+  .profile {
+    margin-bottom: 2rem;
+  }
+
+  .profile .more-info {
+    margin-top: 0.25rem;
+  }
+
   .black-section-heading {
     color: #000;
     clear: both;
