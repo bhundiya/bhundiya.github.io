@@ -26,7 +26,8 @@ profiles:
     content: team/josemorel.md
     image_circular: false
     more_info: >
-      <span style="font-size: 1.25rem; font-weight: 700;">José Morel</span> <br>
+      <span style="font-size: 1.25rem; font-weight: 700;">
+      José Morel</span> <br>
       **Ph.D. Student** <br>
 
   - align: left
@@ -35,8 +36,20 @@ profiles:
     content: team/samondrusek.md
     image_circular: false
     more_info: >
-      <span style="font-size: 1.25rem; font-weight: 700;">Sam Ondrusek</span> <br>
+      <span style="font-size: 1.25rem; font-weight: 700;">
+      Sam Ondrusek</span> <br>
       **Ph.D. Student** <br>
+
+  - align: left
+    section_heading: B.S. Students
+    image: portraits/current/SpencerBradley.png
+    alt: "Portrait of B.S. student Spencer Bradley"
+    content: team/spencerbradley.md
+    image_circular: false
+    more_info: >
+      <span style="font-size: 1.25rem; font-weight: 700;">
+      Spencer Bradley</span> <br>
+      **B.S. Student** <br>
     
   # ADD STUDENTS
 
