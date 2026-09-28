@@ -77,8 +77,17 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/uiucISAMworkshop_2026/";
-            },},{id: "news-dr-bhundiya-gave-a-talk-titled-towards-rapid-and-efficient-assembly-and-manufacturing-of-large-structures-in-space-at-the-asme-aerospace-structures-structural-dynamics-and-materials-ssdm-conference",
+            },},{id: "news-dr-bhundiya-gave-a-talk-titled-towards-rapid-and-efficient-assembly-and-manufacturing-of-large-structures-in-space-at-the-asme-aerospace-structures-structural-dynamics-and-materials-ssdm-conference-in-long-beach-ca",
           title: 'Dr. Bhundiya gave a talk titled “Towards Rapid and Efficient Assembly and Manufacturing...',
+          description: "",
+          section: "News",},{id: "news-the-sparc-lab-has-officially-launched-at-umd",
+          title: 'The SPARC lab has officially launched at UMD!',
+          description: "",
+          section: "News",},{id: "news-dr-bhundiya-gave-an-invited-talk-titled-design-for-in-space-manufacturing-a-framework-for-efficient-and-rapid-construction-of-space-structures-at-the-astm-international-conference-on-advanced-manufacturing-in-orlando-fl",
+          title: 'Dr. Bhundiya gave an invited talk titled “Design for In-Space Manufacturing: A Framework...',
+          description: "",
+          section: "News",},{id: "news-dr-bhundiya-co-organized-the-space-robotics-workshop-at-the-ieee-rsj-international-conference-on-intelligent-robots-amp-amp-systems-iros-in-pittsburgh-pa",
+          title: 'Dr. Bhundiya co-organized the Space Robotics Workshop at the IEEE/RSJ International Conference on...',
           description: "",
           section: "News",},{id: "projects-spacecraft-attitude-control",
           title: 'Spacecraft attitude control',
