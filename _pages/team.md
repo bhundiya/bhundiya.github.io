@@ -40,16 +40,16 @@ profiles:
       Sam Ondrusek</span> <br>
       **Ph.D. Student** <br>
 
-  # - align: left
-  #   section_heading: M.S. Students
-  #   image: portraits/current/TBD.jpeg
-  #   alt: "Portrait of M.S. student T'ana Joseph"
-  #   content: team/tanajoseph.md
-  #   image_circular: false
-  #   more_info: >
-  #     <span style="font-size: 1.25rem; font-weight: 700;">
-  #     T'ana Joseph</span> <br>
-  #     **M.S. Student** <br>
+  - align: left
+    section_heading: M.S. Students
+    image: portraits/current/TanaJoseph.jpg
+    alt: "Portrait of M.S. student T'ana Joseph"
+    content: team/tanajoseph.md
+    image_circular: false
+    more_info: >
+      <span style="font-size: 1.25rem; font-weight: 700;">
+      T'ana Joseph</span> <br>
+      **M.S. Student** <br>
 
   - align: left
     section_heading: B.S. Students
